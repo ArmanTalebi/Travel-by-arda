@@ -1,0 +1,103 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-yellow: #ffc107;
+    --color-orange: #fd8e33;
+    --color-green: #198754;
+    --color-heading-black: #212529;
+    --color-text-black: #212529;
+    --color-heading-white: #fff;
+    --color-text-white: #fff;
+}
+::selection{
+    background: rgb(100, 100, 243);
+    color: #fff;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-white);
+}
+
+
+h1, h2, h3{
+    color: var(--color-heading-black);
+}
+
+
+@media screen and (min-width: 1024px) {
+    body {
+      font-size: 1.8rem;
+    }
+  
+    h1 {
+      font-size: 8rem;
+    }
+  
+    h2 {
+      font-size: 4rem;
+    }
+  
+    h3 {
+      font-size: 2.4rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  svg {
+    width: 25px; 
+    height: 25px;
+    color: var(--color-orange);
+  }
+
+  /* navbar */
+  .container-fluid .navbar-brand{
+    font-size: 37.5px;
+    font-weight: bold;
+  }
+  .navbar-brand span{
+    color: var(--color-orange);
+  }
+  .navbar-toggler{
+    padding: none;
+  }
+  .navbar-nav{
+    margin-left: 0.8rem;
+    font-weight: bold;
+  }
+  .nav-item{
+    transition: 0.5s;
+  }
+  .nav-item:hover{
+    background: var(--color-orange);
+    color: white;
+  }
+  .nav-link{
+    margin-left: 0.5rem;
+    color: black;
+  }
+.d-flex .button{
+  width: 78px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background: var(--color-orange);
+  color: var(--color-heading-white);
+  cursor: pointer;
+}
+
+/* navbar */
+
+
+
+/* header */
+
+
