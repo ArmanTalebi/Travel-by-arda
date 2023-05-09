@@ -99,5 +99,53 @@ h1, h2, h3{
 
 
 /* header */
+.container{
+  width: 100%;
+  height: 100%;
+  margin: 0.7rem 0;
+}
+#img{
+  margin: 0;
+  width: 100%;
+  height: 85vh;
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/Images/NYC.jpg);
+  background-size: cover;
+}
+.text{
+  color: var(--color-heading-white);
+  padding-top: 12rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.text h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.text .p1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+.text .p1 span{
+  color: #fd8421;
+}
+.text .p2{
+  font-weight: 600;
+}
+.buutn{
+  width: 130px;
+  height: 45px;
+  font-size: 17px;
+  font-size: bold;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #000000;
+  transition: ease-out 0.3s;
+}
+.buutn:hover{
+  background: #fd8421;
+  color: #fff;
+}
+/* header */
 
 
