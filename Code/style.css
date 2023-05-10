@@ -22,6 +22,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: var(--color-text-white);
+    background-color: #eeeeee;
 }
 
 
@@ -99,14 +100,15 @@ h1, h2, h3{
 
 
 /* header */
-.container{
+.container-content{
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 #img{
-  margin: 0;
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/Images/NYC.jpg);
   background-size: cover;
 }
@@ -145,6 +147,82 @@ h1, h2, h3{
   background: #fd8421;
   color: #fff;
 }
-/* header */
+
+
+
+
+
+
+/* Reservation */
+.container-book{
+  padding: 0 2rem;
+}
+.header-book{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.header-book h1{
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.header-book span{
+  color: #fd8421;
+}
+.book img{
+  margin-top: 2.5rem;
+  border: 1px solid #9c9c9c;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px 0 #5a5959;
+}
+
+@media screen and (min-width:768px) {
+  .container-book{
+    margin: 0 1rem;
+  }
+  .book img{
+    width: 95%;
+    height: 92%;
+  }
+  .form-book{
+    width: 100%;
+    height: 95%;
+  }
+  .grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 57% 45%;
+  }
+}
+.form-book{
+  margin-top: 2.6rem;
+}
+.form-book .mb-3{
+  box-shadow: 0 4px 10px 0 #d1d1d1;
+  border-radius: 8px;
+}
+.form-book .form-control{
+  border: 1px solid white;
+}
+.mb-3 textarea {
+  width: 100%;
+  height: 130px;
+  border: none;
+  resize: none;
+}
+/* .mb-3 textarea::placeholder{
+  width: 100%;
+  height: 100%;
+  border: none;
+} */
+.btn-book{
+  width: 150px;
+  height: 43px;
+  font-weight: bold;
+  color: white;
+  border: 1px  #f8931f;
+  border-radius: 7px;
+  background: #f8931f;
+}
 
 
