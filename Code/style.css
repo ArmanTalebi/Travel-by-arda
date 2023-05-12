@@ -452,7 +452,7 @@ h1, h2, h3{
 }
 
 .container-about .btn-book{
-  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 @media screen and (min-width:768px) {
     .container-about {
@@ -475,5 +475,48 @@ h1, h2, h3{
     }
   
 /* About */
+
+
+/* Footer */
+.container-footer header {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.container-footer header h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.container-footer h1 span {
+  color: #fd8421;
+}
+.container-footer .footer p{
+  text-align: center;
+  padding-left: 6px;
+}
+.nav .list{
+  margin: 0 0.4rem;
+}
+.icon-container{
+  background: rgb(0, 0, 0);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  fill: rgb(255, 252, 252);
+}
+.footer-text{
+  margin-top: 1rem;
+  text-align: center;
+}
+/* Footer */
+
 
 
