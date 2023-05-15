@@ -308,9 +308,6 @@ h1, h2, h3, h4, h5, h6{
   outline: none;
 }
 
-.buutn:active {
-  scale: 0.95;
-}
 .buutn:hover{
   background: #fd8421;
   color: #fff;
@@ -679,12 +676,12 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* Footer */
-.container-footer header {
+.container-footer .header-footer {
   margin-top: 2rem;
   text-align: center;
 }
 
-.container-footer header h1 {
+.container-footer .header-footer h1 {
   font-weight: bold;
   font-size: 2.5rem;
 }
