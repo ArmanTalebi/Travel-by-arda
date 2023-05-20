@@ -212,36 +212,44 @@ h1, h2, h3, h4, h5, h6{
   font-size: 40px;
   font-weight: bold;
 }
-.visit-nyc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .visit-nyc .p1{
-    font-size: 60px;
-    font-weight: bolder;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 4px solid #fd8421;
-    animation: cursor 1s step-start infinite, text 1.5s steps(8) alternate infinite;
+  font-size: 22px;
+  font-weight: 600;
 }
-@keyframes cursor {
-
-  0%,
-  100% {
-    border-color: #fd8421;
-  }
-}
-
-@keyframes text {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 25%;
-  }
+@media screen and (min-width:991px) {
+  .visit-nyc {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .visit-nyc .p1 {
+      font-size: 60px;
+      font-weight: bolder;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 4px solid #fd8421;
+      animation: cursor 1s step-start infinite, text 1.5s steps(8) alternate infinite;
+    }
+  
+    @keyframes cursor {
+  
+      0%,
+      100% {
+        border-color: #fd8421;
+      }
+    }
+  
+    @keyframes text {
+      0% {
+        width: 0;
+      }
+  
+      100% {
+        width: 25%;
+      }
+    }
 }
 .text .p1 span{
   color: #fd8421;
