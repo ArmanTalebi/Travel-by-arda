@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node_module": "^0.0.0"
+  },
+  "name": "travel-by-arda",
+  "version": "1.0.0",
+  "description": "Traveling by Arda",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmanTalebi/Travel-by-arda.git"
+  },
+  "author": "Arman Talebi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArmanTalebi/Travel-by-arda/issues"
+  },
+  "homepage": "https://github.com/ArmanTalebi/Travel-by-arda#readme"
+}
